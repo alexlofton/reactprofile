@@ -1,12 +1,13 @@
+import Nav from "./Nav";
 
 function Header(){
     
 
     return (
         <>
-        <h2>This is the Header page.</h2>
+        <h2>Alex Lofton</h2>
         
-
+        <Nav />
         </>
     )
 }
