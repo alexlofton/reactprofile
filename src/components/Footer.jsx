@@ -3,12 +3,14 @@ function Footer(){
     
 // clickable github and linked in logo that navigate to your github and linked in
     return (
-        <>
-        <h2>This is the Footer page.</h2>
+        <div className="footer">
+        
+        <a href="" className="footer-link">LinkedIn Icon here</a>
+        <a href="" className="footer-link">Github icon here</a>
 
         
 
-        </>
+        </div>
     )
 }
 

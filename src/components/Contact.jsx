@@ -34,7 +34,7 @@ function Contact() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!email || !userName) {
-      setErrorMessage('Email or username is invalid');
+      setErrorMessage('Email or name is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
@@ -47,15 +47,18 @@ function Contact() {
 
     setEmail('');
 
+    setMessage('')
+
   };
 
   return (
     <div className="container text-center">
-      <h1>Hello {userName}</h1>
+      <h1>Contact Me</h1>
       <form className="form" onSubmit={handleFormSubmit}> 
       <input
           value={userName}
           name="userName"
+          className="contact-input"
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
@@ -63,14 +66,16 @@ function Contact() {
         <input
           value={email}
           name="email"
+          className="contact-input"
           onChange={handleInputChange}
           type="email"
           placeholder="Email"
         />
-       
+      
           <textarea
-          value={message}
+          defaultValue={message}
           name="message"
+          className="contact-text"
           onChange={handleInputChange}
           type="text"
           placeholder="What's on your mind?"

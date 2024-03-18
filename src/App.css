@@ -1,7 +1,6 @@
 #root {
-  max-width: 1280px;
+
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -26,4 +25,44 @@
   width: 40%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.contact-input{
+  margin: 15px;
+}
+
+.contact-text{
+  margin: 15px;
+  height: 100px;
+}
+
+.card-map {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.card-style {
+  margin: 20px 30px;
+}
+
+.card-container{
+  margin-top: 17px;
+}
+
+.card-container .card .card-body a {
+  margin: 0 5px;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(148, 181, 194);
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(148, 181, 194);
+  height: 130px;
 }
