@@ -5,8 +5,8 @@ function Footer(){
     return (
         <div className="footer">
         
-        <a href="" className="footer-link">LinkedIn Icon here</a>
-        <a href="" className="footer-link">Github icon here</a>
+        <a href="www.linkedin.com/in/alex-lofton" className="footer-link">LinkedIn</a>
+        <a href="" className="footer-link">Github</a>
 
         
 
