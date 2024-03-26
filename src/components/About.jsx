@@ -1,5 +1,5 @@
 
-import avatar from "../assets/27424.png"
+import avatar from "../assets/headshot.png"
 
 function About(){
 
@@ -11,7 +11,7 @@ function About(){
         <h2>About Me.</h2>
         <div className="about-me">
         <img src={avatar} className="avatar-style" />
-        <p>Hi Ho</p>
+        <p>My name is Alex Lofton and I am a Junior Software Engineer who graduated from Univeristy of Denver and their Full Stack Web Development boot camp in April of 2024. I am a curious and life-long learner and data-driven individual looking to build products to improve people's quality of life. Combining my experience in customer service and my passion for accessible and cohesive UI, I believe that through the process of creative problem solving, planning, and effective collaboration- anything can be built. </p>
         </div>
         </div>
     )

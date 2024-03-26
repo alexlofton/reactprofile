@@ -5,7 +5,7 @@ function Resume(){
 
     return (
         <>
-        <h2>Check out my <a href={resume} download>resume</a></h2>
+        <h2><a href={resume} download>Check out my resume</a></h2>
 
         <h2>Front End Skillz</h2>
         <ul>
