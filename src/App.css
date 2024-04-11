@@ -1,6 +1,6 @@
 #root {
-  background-color: black;
-  color: whitesmoke;
+  background-color: #4E4F50;
+  color: #E2DED0;
   margin: 0 auto;
   text-align: center;
 }
@@ -17,7 +17,7 @@
 
 
 .turtle{
-  color: red;
+  color: #175873;
 }
 
 .form{
@@ -59,17 +59,23 @@
 
 .header {
   width: 100%;
-  background-color: rgb(151, 151, 151);
+  background-color: #647C90;
   border-top: 0;
   border-bottom: 5px;
   border-left: 0;
   border-right: 0;
-  border-style: groove;
-  border-color: whitesmoke;
+  border-style: solid;
+  border-color: #E2DED0;
 }
 
 .footer {
   width: 100%;
-  background-color: black;
   height: 50px;
+  background-color: #E2DED0;
+  border-top: 5px;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  /* border-color: #746C70; */
 }
