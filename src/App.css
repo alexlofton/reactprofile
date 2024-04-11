@@ -1,5 +1,6 @@
 #root {
-
+  background-color: black;
+  color: whitesmoke;
   margin: 0 auto;
   text-align: center;
 }
@@ -58,11 +59,17 @@
 
 .header {
   width: 100%;
-  background-color: rgb(148, 181, 194);
+  background-color: rgb(151, 151, 151);
+  border-top: 0;
+  border-bottom: 5px;
+  border-left: 0;
+  border-right: 0;
+  border-style: groove;
+  border-color: whitesmoke;
 }
 
 .footer {
   width: 100%;
-  background-color: rgb(148, 181, 194);
-  height: 130px;
+  background-color: black;
+  height: 50px;
 }
