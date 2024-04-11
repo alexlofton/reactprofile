@@ -1,5 +1,5 @@
 
-import avatar from "../assets/headshot.jpeg"
+import avatar from "../assets/headshot2.0.png"
 
 function About(){
     return (

@@ -1,4 +1,4 @@
-import resume from "../assets/headshot.jpeg"
+import resume from "../assets/headshot2.0.png"
 
 function Resume(){
     

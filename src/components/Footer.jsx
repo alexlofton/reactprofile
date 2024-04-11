@@ -1,12 +1,18 @@
+import React from 'react';
 
 function Footer(){
-    
-// clickable github and linked in logo that navigate to your github and linked in
+    const footerLinkStyle = {
+        color: '#4E4F50',
+        textDecoration: 'none',
+        marginRight: '40px',
+    };
+
     return (
         <div className="footer">
-        
-        <a href="www.linkedin.com/in/alex-lofton" className="footer-link">LinkedIn</a>
-        <a href="" className="footer-link">Github</a>
+            <ul className="footer-link">
+        <a href="http://linkedin.com/in/alex-lofton" style={footerLinkStyle}>LinkedIn</a>
+        <a href="https://github.com/alexlofton?tab=repositories" style={footerLinkStyle}>GitHub</a>
+        </ul>
 
         
 
