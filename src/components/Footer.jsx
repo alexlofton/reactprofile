@@ -11,7 +11,7 @@ function Footer(){
         <div className="footer">
             <ul className="footer-link">
         <a href="http://linkedin.com/in/alex-lofton" style={footerLinkStyle}>LinkedIn</a>
-        <a href="https://github.com/alexlofton?tab=repositories" style={footerLinkStyle}>GitHub</a>
+        <a href="https://github.com/alexlofton" style={footerLinkStyle}>GitHub</a>
         </ul>
 
         

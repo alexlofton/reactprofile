@@ -78,11 +78,11 @@ function Contact() {
           className="contact-text"
           onChange={handleInputChange}
           type="text"
-          placeholder="What's on your mind?"
+          placeholder="Write message here"
         />
         {/* TODO Add another input field with a value, name, type, and placeholder of "password" */}
         {/* TODO Add a `onChange` attribute with a value of `handleInputChange` */}
-        <button type="submit">
+        <button className="submitButton" type="submit">
           Submit
         </button>
       </form>
